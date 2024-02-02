@@ -3,9 +3,9 @@ const Web3 = require("web3");
 const PatientData = require('./build/PatientData.json');
 
 const provider = new HDWalletProvider(
-  'flower pigeon impulse quality fatigue arrest endless fantasy auto region kind any',
+  'Your_Mnemonic',
   // remember to change this to your own phrase!
-  'https://sepolia.infura.io/v3/69f06d84671f459dbc70fb6c5d9102ce'
+  'Your_URL'
   // remember to change this to your own endpoint!
 );
 const web3 = new Web3(provider);
